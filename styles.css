@@ -1,0 +1,38 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin: 20;
+    padding: 20;
+}
+
+.quiz-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #666666;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.correct {
+    background-color: rgb(62, 197, 62);
+}
+.incorrect {
+    background-color: red;
+}
+
